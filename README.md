@@ -31,10 +31,10 @@ Este documento detalla el proceso de desarrollo de la solución, incluyendo la c
 ### Descripción de los Dispositivos:
 ### Casa Perez
 #### End Devices
-+ Tablet
-+ Smartphone
-+ Laptop
-+ 2 PCs
++ 2 Tablets
++ 4 Smartphones
++ 1 Laptop
++ 3 PCs
 
 #### Network devices
 + Access Point
@@ -43,16 +43,13 @@ Este documento detalla el proceso de desarrollo de la solución, incluyendo la c
 
 ### Disney Plus
 + Router
-+ Switch
 + Server
 
-### Configuración de los Dispositivos:
-Explicación de cómo se configuraron los dispositivos en Packet Tracer.
-
-### Tipos de Redes
-+ LAN y WLAN: Explicación de cómo se implementaron las redes LAN y WLAN.
-+ WAN:
-+ Descripción de la red de área amplia y su rol en la solución.
+### Configuración de los Dispositivos y las redes:
+Para llevar a cabo la solución del desafío del señor Fernando Pérez, fue necesario unir dos redes LAN (Local Area Network) para formar una red WAN (Wide Area Network), las dos redes LAN son la casa del señor Fernando Pérez y el servidor DNS de Disney Plus.
+![Red Casa Fernando Pérez](GestionTareasUML.png)
+Estas redes tienen como direcciones ip 192.168.1.0 y 192.168.2.0 respectivamente. Dentro de la primera red, se encuentra el router conectado a un switch, a donde van conectados todos los dispositivos de la familia de Fernando Pérez desde donde se desea acceder a la página www.disneyplus.com, incluido el Access Point, que permite a los dispositivos como Smartphones, Laptops y Tablets conectarse de manera inalámbrica. Todos los dispositivos manejan una ip estática diferente entre ellos, comenzando con la ip 192.168.1.1, que es el router, y finalizando con un dispositivo de la familia Pérez con la ip 192.168.1.11. El Access Point fue configurado en el Puerto 1 para tener un SSID "Casa Fernando" y una autenticación WPA2-PSK "abc123456", que es lo que podriamos conocer en la cotidianidad como el nombre y la contraseña de una red wifi. Todos los dispositivos de la familia Pérez manejan una Máscara de subred 255.255.255.0, una puerta de enlace predeterminada 192.168.1.1 que es la ip del router de la red y un servidor DNS 192.168.2.2 que es la dirección ip del servidor DNS de Disney Plus que se encuentra en la otra red. Por otro lado, tenemos el router de la segunda red, a donde va conectado el servidor de Disney Plus, que como se mencionó anteriormente, tiene una dirección ip estática 192.168.2.2, que está enlazada directamente al servicio DNS para la URL "www.disneyplus.com". Casi todos los componentes de la red final están conectados con cable de cobre directo, a excepción de los dos rputers, que están conectados con un Serial DTE.
+Adicional a esto, tanto en los routers como en las Laptops se realizaron ciertas modificaciones para que las conexiones de la red se pudieran realizar de manera correcta. Los routers se modificaron añadiéndoles un puerto WIC-2T, para que pudieran ser conectados con el Serial DTE; y a las laptops se les eliminó el módulo con conexión a cable Ethernet y se les añadió un módulo WPC300N, que permite la conexión inalámbrica con el Access Point.
 
 ## 3. Topologías de Red
 ### Topología Seleccionada:
