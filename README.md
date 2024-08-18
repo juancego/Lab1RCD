@@ -1,4 +1,4 @@
-# Lab1RCD
+# Laboratorio 1 RDC / Red - Interconexión
   
 ## 1. Inicio
 ### Introducción:
