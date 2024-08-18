@@ -53,28 +53,21 @@ Explicación de cómo se configuraron los servicios DNS y DHCP.
 ### Arquitectura de Red:
 Descripción de la arquitectura general de la red.
 
-## 5. Protocolos y Modelos ???
-### Modelo OSI:
-Explicación de cómo se aplicó el modelo OSI en la solución.
-
-### Protocolos TCP/IP:
-Detalle de cómo se implementaron los protocolos TCP/IP.
-
-## 6. Desafíos y Soluciones
+## 5. Desafíos y Soluciones
 ### Problemas Encontrados:
 Descripción de los desafíos técnicos que surgieron.
 
 ### Soluciones Implementadas:
 Explicación de cómo se resolvieron esos desafíos.
 
-## 7. Conclusiones
+## 6. Conclusiones
 Resumen de los resultados obtenidos. Reflexión sobre lo aprendido durante el proyecto.
 
-## 8. Referencias
+## 7. Referencias
 ### Bibliografía:
 Listado de referencias utilizadas para el desarrollo del proyecto.
 
-## 9. Anexos
+## 8. Anexos
 ### Actas de Reuniones:
 Documentos de las reuniones de inicio, seguimiento y cierre.
 
