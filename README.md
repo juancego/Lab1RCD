@@ -110,9 +110,3 @@ Uno de los aprendizajes adquiridos del desarrollo del laboratorio fue el entendi
 ### Bibliografía:
 Listado de referencias utilizadas para el desarrollo del proyecto.
 
-## 8. Anexos
-### Actas de Reuniones:
-Documentos de las reuniones de inicio, seguimiento y cierre.
-
-### Capturas de Pantalla:
-Imágenes de la configuración en Packet Tracer y otros detalles relevantes.
