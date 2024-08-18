@@ -5,7 +5,19 @@
 Breve descripción del desafío y del propósito del proyecto.
 
 ### Objetivos del Proyecto:
-Explicación de lo que se busca lograr con la solución.
+#### 1. Diseñar una Red Doméstica Eficiente:
+
++ Crear una red doméstica que permita a Fernando Pérez y su familia acceder al sitio web de DisneyPlus desde múltiples dispositivos, incluyendo computadoras personales y teléfonos celulares, sin interrupciones.
+#### 2. Implementar Configuraciones de Red:
+
++ Configurar routers, switches, y puntos de acceso utilizando Cisco Packet Tracer para garantizar una conectividad estable y segura en toda la red.
+#### 3. Optimizar la Navegación Web:
+
++ Asegurar que la red esté configurada para ofrecer tiempos de carga rápidos y una experiencia de usuario óptima al acceder a servicios de streaming como DisneyPlus.
+#### 4. Aplicar Protocolos y Servicios Clave:
+
++ Implementar y configurar servicios esenciales como DNS y DHCP para facilitar la gestión de la red y la asignación de direcciones IP dinámicas.
++ Utilizar protocolos de comunicación como TCP/IP para garantizar la correcta transmisión de datos entre los dispositivos y el servidor de DisneyPlus.
 
 ### Miembros del equipo
 + Juan David Cetina Gomez
