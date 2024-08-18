@@ -2,8 +2,11 @@
   
 ## 1. Inicio
 ### Introducción:
-Breve descripción del desafío y del propósito del proyecto.
+En este proyecto, se aborda el desafío de proporcionar una solución de red eficiente para Fernando Pérez y su familia, quienes desean navegar sin problemas por el sitio web de DisneyPlus desde sus computadoras personales y teléfonos celulares. Utilizando Cisco Packet Tracer, hemos desarrollado una red que garantiza la conectividad y el acceso seguro a internet desde los dispositivos de todos los miembros de la familia.
 
+El propósito de este proyecto es aplicar los conocimientos adquiridos en temas de redes, incluyendo la configuración de dispositivos de red, la elección de tipos de redes y topologías adecuadas, y la implementación de servicios como DNS y DHCP. A través de esta solución, se busca ofrecer una experiencia de navegación fluida y sin interrupciones para todos los usuarios dentro de la red doméstica de la familia Pérez.
+
+Este documento detalla el proceso de desarrollo de la solución, incluyendo la configuración de los elementos de red, la selección de la topología, y la implementación de los servicios y protocolos necesarios. Además, se incluyen las conclusiones y los desafíos encontrados durante el desarrollo del proyecto.
 ### Objetivos del Proyecto:
 #### 1. Diseñar una Red Doméstica Eficiente:
 
