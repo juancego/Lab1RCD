@@ -10,13 +10,13 @@ Este documento detalla el proceso de desarrollo de la solución, incluyendo la c
 ### Objetivos del Proyecto:
 #### 1. Diseñar una Red Doméstica Eficiente:
 + Crear una red doméstica que permita a Fernando Pérez y su familia acceder al sitio web de DisneyPlus desde múltiples dispositivos, incluyendo computadoras personales y teléfonos celulares, sin interrupciones.
-+ 
+  
 #### 2. Implementar Configuraciones de Red:
 + Configurar routers, switches, y puntos de acceso utilizando Cisco Packet Tracer para garantizar una conectividad estable y segura en toda la red.
-+ 
+  
 #### 3. Optimizar la Navegación Web:
 + Asegurar que la red esté configurada para ofrecer tiempos de carga rápidos y una experiencia de usuario óptima al acceder a servicios de streaming como DisneyPlus.
-+ 
+  
 #### 4. Aplicar Protocolos y Servicios Clave:
 
 + Implementar y configurar servicios esenciales como DNS y DHCP para facilitar la gestión de la red y la asignación de direcciones IP dinámicas.
@@ -52,7 +52,7 @@ Para llevar a cabo la solución del desafío del señor Fernando Pérez, fue nec
 ![Red Disney Plus](RedDisneyPlus.jpg)
 ![Red Final](RedCompleta.jpg)
 
-Estas redes tienen como direcciones ip 192.168.1.0 y 192.168.2.0 respectivamente. Dentro de la primera red, se encuentra el router conectado a un switch, a donde van conectados todos los dispositivos de la familia de Fernando Pérez desde donde se desea acceder a la página www.disneyplus.com, incluido el Access Point, que permite a los dispositivos como Smartphones, Laptops y Tablets conectarse de manera inalámbrica. Todos los dispositivos manejan una ip estática diferente entre ellos, comenzando con la ip 192.168.1.1, que es el router, y finalizando con un dispositivo de la familia Pérez con la ip 192.168.1.11. 
+Estas redes tienen como direcciones ip 192.168.1.0 y 192.168.2.0 respectivamente. Dentro de la primera red, se encuentra el router conectado a un switch, a donde van conectados todos los dispositivos de la familia de Fernando Pérez, desde donde se desea acceder a la página "www.disneyplus.com", incluido el Access Point, que permite a los dispositivos como Smartphones, Laptops y Tablets conectarse de manera inalámbrica. Todos los dispositivos manejan una ip estática diferente entre ellos, comenzando con la ip 192.168.1.1, que es el router, y finalizando con un dispositivo de la familia Pérez con la ip 192.168.1.11. 
 
 ![Configuración Access Point](ConfiguracionAccesPoint.jpg)
 
@@ -63,7 +63,7 @@ Como se puede ver en la imagen anterior, el Access Point fue configurado en el P
 ![Comfiguración Smartphone](ComfiguracionSmartphone.jpg)
 ![Configuracion Laptop](ConexionWirelessLaptop.jpg)
 
-Por otro lado, tenemos el router de la segunda red, a donde va conectado el servidor de Disney Plus, que como se mencionó anteriormente, tiene una dirección ip estática 192.168.2.2, que está enlazada directamente al servicio DNS para la URL "www.disneyplus.com". Casi todos los componentes de la red final están conectados con cable de cobre directo, a excepción de los dos routers, que están conectados con un Serial DTE, como se puede apreciar en la siguiente imagen:
+Por otro lado, tenemos el router de la segunda red, a donde va conectado el servidor de Disney Plus, que como se mencionó anteriormente, tiene una dirección ip estática 192.168.2.2, que está enlazada directamente al servicio DNS para la URL "www.disneyplus.com". Casi todos los componentes de la red final están conectados con cable de cobre directo, a excepción de los dos routers, que están conectados con un Serial DTE, creando una subred adicional, como se puede apreciar en la siguiente imagen:
 
 ![Configuración Servidor DNS](ConfiguracionServer.jpg)
 ![Routers conectados con Serial DTE](RedWAN.jpg)
