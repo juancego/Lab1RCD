@@ -29,7 +29,22 @@ Este documento detalla el proceso de desarrollo de la solución, incluyendo la c
 
 ## 2. Configuracion de Red
 ### Descripción de los Dispositivos:
-Detalle de los routers, switches, puntos de acceso y nodos finales utilizados.
+### Casa Perez
+#### End Devices
++ Tablet
++ Smartphone
++ Laptop
++ 2 PCs
+
+#### Network devices
++ Access Point
++ Switch
++ Router
+
+### Disney Plus
++ Router
++ Switch
++ Server
 
 ### Configuración de los Dispositivos:
 Explicación de cómo se configuraron los dispositivos en Packet Tracer.
