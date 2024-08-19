@@ -58,6 +58,7 @@ La red de la Casa Pérez utiliza una topología en estrella. En esta configuraci
 + Switch: Nodo central de la red, que distribuye el tráfico de red.
 + Router: Conectado al switch y a la red externa (WAN).
 + Access Point: Proporciona conectividad inalámbrica con SSID "Casa Fernando".
+
 ![Red casa fernando perez](/Imagenes/RedCasaFernandoPerez.jpg)
 ![Red Disney](/Imagenes/RedDisneyPlus.jpg)
 ## Arquitecturas y Servicios
@@ -67,6 +68,8 @@ El servidor DNS en la red de DisneyPlus tiene la dirección IP 192.168.2.2 y res
 
 ### Arquitectura de Red
 La arquitectura de red está formada por dos redes principales: la red doméstica de la Casa Pérez y la red de DisneyPlus. Estas redes están interconectadas mediante una WAN.
+
+
 ![conexion](/Imagenes/RedWAN.jpg)
 
 #### Red Doméstica de la Casa Pérez (LAN)
