@@ -12,27 +12,26 @@ Implementar Configuraciones de Red: Configurar routers, switches y puntos de acc
 Optimizar la Navegación Web: Asegurar tiempos de carga rápidos y una experiencia de usuario óptima al acceder a servicios de streaming.
 Aplicar Protocolos y Servicios Clave: Implementar y configurar DNS y DHCP para facilitar la gestión de la red y la asignación de direcciones IP dinámicas. Utilizar protocolos de comunicación como TCP/IP para garantizar la transmisión de datos.
 ### Miembros del equipo
-Juan David Cetina Gómez
-Mateo de Jesús Vanegas Correa
-Sebastián Sánchez Sandoval
++ Juan David Cetina Gómez
++ Mateo de Jesús Vanegas Correa
++ Sebastián Sánchez Sandoval
 ## Configuración de Red
 ### Descripción de los Dispositivos
 Casa Pérez
 #### Dispositivos finales:
 
-2 Tablets
-4 Smartphones
-1 Laptop
-3 PCs
++ 2 Tablets
++ 4 Smartphones
++ 1 Laptop
++ 3 PCs
 #### Dispositivos de red:
 
-Access Point
-Switch
-Router
-Disney Plus
-Router
-Servidor
-Configuración de los Dispositivos y las Redes
++ Access Point
++ Switch
++ Router
++ Disney Plus
++ Servidor
++ Configuración de los Dispositivos y las Redes
 Para abordar la solución del desafío del Sr. Fernando Pérez, se unieron dos redes LAN (Local Area Network) para formar una WAN (Wide Area Network). Las dos redes LAN son la casa del Sr. Pérez y el servidor DNS de DisneyPlus.
 
 #### Direcciones IP:
