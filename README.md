@@ -1,4 +1,4 @@
-# Laboratorio 1 RDC / Red - Interconexión
+# Laboratorio 1 RCD / Red - Interconexión
 ## Introducción
 En este proyecto, se aborda el desafío de proporcionar una solución de red eficiente para Fernando Pérez y su familia, quienes desean navegar sin problemas por el sitio web de DisneyPlus desde sus computadoras personales y teléfonos celulares. Utilizando Cisco Packet Tracer, se ha desarrollado una red que garantiza la conectividad y el acceso seguro a internet desde los dispositivos de todos los miembros de la familia.
 
