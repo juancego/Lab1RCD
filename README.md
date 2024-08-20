@@ -28,6 +28,7 @@ Aplicar Protocolos y Servicios Clave: Implementar y configurar DNS y DHCP para f
 + Router
 + Disney Plus
 + Servidor
+  
 #### Configuración de los Dispositivos y las Redes
 Para abordar la solución del desafío del Sr. Fernando Pérez, se unieron dos redes LAN (Local Area Network) para formar una WAN (Wide Area Network). Las dos redes LAN son la casa del Sr. Pérez y el servidor DNS de DisneyPlus.
 
@@ -44,10 +45,22 @@ Router en la Red de Disney Plus: Conecta el servidor DNS, con IP 192.168.2.2, qu
 
 Conexión WAN: Los routers de ambas redes están conectados mediante un enlace serial DTE.
 
+A contnuación se muestran las configuraciones de los dispositivos que hacen parte de la red:
+
+![Configuración PC](/Imagenes/ConfiguracionPC.jpg)
+![Configuración Smartphone](/Imagenes/ConfiguracionSmartphone.jpg)
+![Configuración Tablet](/Imagenes/ConfiguracionTablet.jpg)
+![Configuración Laptop](/Imagenes/ConexionWirelessLaptop.jpg)
+![Configuración Access Point](/Imagenes/ConfiguracionAccessPoint.jpg)
+
 #### Modificaciones
 Routers: Equipados con un puerto WIC-2T para la conexión serial.
+
 Laptops: Se les añadió un módulo WPC300N para permitir la conexión inalámbrica.
-![Red final](/Imagenes/RedCompleta.jpg)
+
+![Modificación Laptop](/Imagenes/ModificacionLaptop.jpg)
+![Modificación Router](/Imagenes/ModificacionRouter.jpg)
+
 ## Topologías de Red
 ### Topología Seleccionada: Estrella
 La red de la Casa Pérez utiliza una topología en estrella. En esta configuración, todos los dispositivos finales (PCs, smartphones, tablets, y laptops) están conectados a un dispositivo central, que es un switch. Este switch se conecta al router, que actúa como el punto de acceso principal hacia redes externas, y a un Access Point que proporciona conectividad inalámbrica para dispositivos móviles.
@@ -59,33 +72,43 @@ La red de la Casa Pérez utiliza una topología en estrella. En esta configuraci
 + Router: Conectado al switch y a la red externa (WAN).
 + Access Point: Proporciona conectividad inalámbrica con SSID "Casa Fernando".
 
-![Red casa fernando perez](/Imagenes/RedCasaFernandoPerez.jpg)
-![Red Disney](/Imagenes/RedDisneyPlus.jpg)
 ## Arquitecturas y Servicios
 ### DNS
 El servidor DNS en la red de DisneyPlus tiene la dirección IP 192.168.2.2 y resuelve la URL "www.disneyplus.com". Los dispositivos en la red de la Casa Pérez están configurados para utilizar este servidor, facilitando el acceso al contenido de DisneyPlus.
+
 ![Configuracion Server](/Imagenes/ConfiguracionServer.jpg)
 
 ### Arquitectura de Red
 La arquitectura de red está formada por dos redes principales: la red doméstica de la Casa Pérez y la red de DisneyPlus. Estas redes están interconectadas mediante una WAN.
 
+![Red fina](/Imagenes/RedCompleta.jpg)
 
-![conexion](/Imagenes/RedWAN.jpg)
 
 #### Red Doméstica de la Casa Pérez (LAN)
+
 Router: Acceso a la red WAN y distribución de direcciones IP.
 Switch: Conecta los dispositivos cableados de la red.
 Access Point: Proporciona conectividad inalámbrica.
 Dirección IP: Subred 192.168.1.0/24.
+
+![Red casa fernando perez](/Imagenes/RedCasaFernandoPerez.jpg)
+
 #### Red de Disney Plus (LAN)
 Router: Conecta la red de DisneyPlus con la WAN.
 Servidor DNS: Resuelve la URL "www.disneyplus.com".
 Dirección IP: Subred 192.168.2.0/24.
+
+![Red Disney](/Imagenes/RedDisneyPlus.jpg)
+
 #### Red WAN
 La WAN interconecta ambas redes LAN mediante una topología punto a punto.
 
+![conexion](/Imagenes/RedWAN.jpg)
+
 Enlace Serial DTE: Interconexión entre los routers.
+
 Routers: Equipados con módulos WIC-2T para soportar la conexión serial.
+
 #### Desafíos y Soluciones
 ##### Problemas Encontrados
 + Conectar dispositivos inalámbricos al switch.
