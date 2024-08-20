@@ -51,7 +51,7 @@ A contnuación se muestran las configuraciones de los dispositivos que hacen par
 ![Configuración Smartphone](/Imagenes/ConfiguracionSmartphone.jpg)
 ![Configuración Tablet](/Imagenes/ConfiguracionTablet.jpg)
 ![Configuración Laptop](/Imagenes/ConexionWirelessLaptop.jpg)
-![Configuración Access Point](/Imagenes/ConfiguracionAccessPoint.jpg)
+![Configuración Access Point](/Imagenes/ConfiguracionAccesPoint.jpg)
 
 #### Modificaciones
 Routers: Equipados con un puerto WIC-2T para la conexión serial.
