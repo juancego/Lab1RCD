@@ -6,12 +6,12 @@ El propósito de este proyecto es aplicar los conocimientos adquiridos en redes,
 
 Este documento detalla el proceso de desarrollo de la solución, incluyendo la configuración de los elementos de red, la selección de la topología, y la implementación de los servicios y protocolos necesarios. Además, se incluyen las conclusiones y los desafíos encontrados durante el desarrollo del proyecto.
 
-### Objetivos del Proyecto
+## Objetivos del Proyecto
 Diseñar una Red Doméstica Eficiente: Crear una red que permita a Fernando Pérez y su familia acceder al sitio web de DisneyPlus desde múltiples dispositivos, sin interrupciones.
 Implementar Configuraciones de Red: Configurar routers, switches y puntos de acceso utilizando Cisco Packet Tracer para garantizar una conectividad estable y segura.
 Optimizar la Navegación Web: Asegurar tiempos de carga rápidos y una experiencia de usuario óptima al acceder a servicios de streaming.
 Aplicar Protocolos y Servicios Clave: Implementar y configurar DNS y DHCP para facilitar la gestión de la red y la asignación de direcciones IP dinámicas. Utilizar protocolos de comunicación como TCP/IP para garantizar la transmisión de datos.
-### Miembros del equipo
+## Miembros del equipo
 + Juan David Cetina Gómez
 + Mateo de Jesús Vanegas Correa
 + Sebastián Sánchez Sandoval
@@ -61,8 +61,8 @@ Laptops: Se les añadió un módulo WPC300N para permitir la conexión inalámbr
 ![Modificación Laptop](/Imagenes/ModificacionLaptop.jpg)
 ![Modificación Router](/Imagenes/ModificacionRouter.jpg)
 
-## Topologías de Red
-### Topología Seleccionada: Estrella
+### Topologías de Red
+#### Topología Seleccionada: Estrella
 La red de la Casa Pérez utiliza una topología en estrella. En esta configuración, todos los dispositivos finales (PCs, smartphones, tablets, y laptops) están conectados a un dispositivo central, que es un switch. Este switch se conecta al router, que actúa como el punto de acceso principal hacia redes externas, y a un Access Point que proporciona conectividad inalámbrica para dispositivos móviles.
 
 #### Dispositivos conectados:
@@ -72,13 +72,13 @@ La red de la Casa Pérez utiliza una topología en estrella. En esta configuraci
 + Router: Conectado al switch y a la red externa (WAN).
 + Access Point: Proporciona conectividad inalámbrica con SSID "Casa Fernando".
 
-## Arquitecturas y Servicios
-### DNS
+### Arquitecturas y Servicios
+#### DNS
 El servidor DNS en la red de DisneyPlus tiene la dirección IP 192.168.2.2 y resuelve la URL "www.disneyplus.com". Los dispositivos en la red de la Casa Pérez están configurados para utilizar este servidor, facilitando el acceso al contenido de DisneyPlus.
 
 ![Configuracion Server](/Imagenes/ConfiguracionServer.jpg)
 
-### Arquitectura de Red
+#### Arquitectura de Red
 La arquitectura de red está formada por dos redes principales: la red doméstica de la Casa Pérez y la red de DisneyPlus. Estas redes están interconectadas mediante una WAN.
 
 ![Red fina](/Imagenes/RedCompleta.jpg)
@@ -109,14 +109,27 @@ Enlace Serial DTE: Interconexión entre los routers.
 
 Routers: Equipados con módulos WIC-2T para soportar la conexión serial.
 
-#### Desafíos y Soluciones
-##### Problemas Encontrados
+## Desafíos y Soluciones
+#### Problemas Encontrados
 + Conectar dispositivos inalámbricos al switch.
 + Conectar los routers de ambas redes.
 + Conectar los dispositivos de la Casa Pérez al servidor de DisneyPlus.
-#### Soluciones Implementadas
+### Soluciones Implementadas
 + Access Point: Configuración para conectar dispositivos con IP estática.
 + Modificación de Routers: Agregado de puertos WIC-2T para la conexión serial.
 + DNS: Configuración del servidor para resolver la URL de DisneyPlus.
 ## Conclusiones
 El proyecto logró cumplir con los objetivos planteados, proporcionando una red eficiente y segura para la familia Pérez. A través de la implementación de una topología en estrella y la configuración de servicios clave como DNS, se optimizó la conectividad y se mejoró la experiencia de navegación. A pesar de los desafíos encontrados, se implementaron soluciones efectivas que aseguraron la funcionalidad de la red. Este proyecto demuestra la importancia de una planificación cuidadosa y una configuración adecuada en el diseño de redes domésticas.
+
+## Referencias
+GitHub, "About wikis," [Online]. Available: https://docs.github.com/es/communities/documenting-your-project-with-wikis/about-wikis. [Accessed: 18-Aug-2024].
+
+NetworkChuck, "Cisco Packet Tracer Tutorial - Set up DHCP Server," YouTube, 27-Jun-2020. [Online]. Available: https://www.youtube.com/watch?v=X0vnbC-Nlgo. [Accessed: 17-Aug-2024].
+
+David Bombal, "Cisco Packet Tracer | Complete Guide," YouTube, 18-May-2020. [Online]. Available: https://www.youtube.com/watch?v=M9LDWjAAqgk. [Accessed: 17-Aug-2024].
+
+CertBros, "Cisco Packet Tracer tutorial for beginners," YouTube, 05-Aug-2021. [Online]. Available: https://www.youtube.com/watch?v=qRKTaR3jiGg&t=309s. [Accessed: 17-Aug-2024].
+
+ITProTV, "Using Cisco Packet Tracer | Tech Tip," YouTube, 21-Sep-2018. [Online]. Available: https://www.youtube.com/watch?v=1-1eC_k7Iuk. [Accessed: 17-Aug-2024].
+
+Cisco Networking Academy, "Networking Courses," [Online]. Available: https://www.netacad.com/courses/networking. [Accessed: 16-Aug-2024].
